@@ -1,126 +1,99 @@
-#N canvas 99 128 991 421 10;
-#X obj 482 353 dac~;
-#X floatatom 557 195 5 0 0 0 - - -, f 5;
-#X floatatom 592 196 4 0 0 0 - - -, f 4;
-#X floatatom 605 215 3 0 0 0 - - -, f 3;
-#X floatatom 618 196 4 0 0 0 - - -, f 4;
-#X floatatom 631 215 3 0 0 0 - - -, f 3;
-#X floatatom 644 196 4 0 0 0 - - -, f 4;
-#X floatatom 658 215 3 0 0 0 - - -, f 3;
-#X floatatom 671 196 4 0 0 0 - - -, f 4;
-#X floatatom 684 215 3 0 0 0 - - -, f 3;
-#X obj 595 236 vsl 12 32 0 1 0 0 empty empty empty 0 -9 0 10 -262144
+#N canvas 322 57 858 597 10;
+#X obj 617 469 dac~;
+#X obj 805 216 vsl 12 32 0 1 0 0 empty empty empty 0 -9 0 10 -4034
 -1 -1 0 1;
-#X obj 571 236 vsl 12 32 0 1 0 0 empty empty empty 0 -9 0 10 -262144
+#N canvas 198 185 1073 461 RisBeater 0;
+#X floatatom 37 244 5 0 0 2 f0 - -, f 5;
+#X floatatom 80 244 4 0 0 2 f1 - -, f 4;
+#X floatatom 111 244 4 0 0 2 beat - -, f 4;
+#X floatatom 157 244 4 0 0 2 f2 - -, f 4;
+#X floatatom 188 244 4 0 0 2 beat - -, f 4;
+#X floatatom 235 244 4 0 0 2 f3 - -, f 4;
+#X floatatom 266 244 4 0 0 2 beat - -, f 4;
+#X floatatom 314 244 4 0 0 2 f4 - -, f 4;
+#X floatatom 345 244 4 0 0 2 beat - -, f 4;
+#X obj 80 262 vsl 12 32 0 1 0 0 empty empty empty 0 -9 0 10 -204786
 -1 -1 0 1;
-#X obj 607 236 vsl 12 32 0 1 0 0 empty empty empty 0 -9 0 10 -262144
+#X obj 37 262 vsl 12 32 0 1 0 0 empty empty empty 0 -9 0 10 -204786
 -1 -1 0 1;
-#X obj 622 236 vsl 12 32 0 1 0 0 empty empty empty 0 -9 0 10 -262144
+#X obj 112 262 vsl 12 32 0 1 0 0 empty empty empty 0 -9 0 10 -262130
 -1 -1 0 1;
-#X obj 634 236 vsl 12 32 0 1 0 0 empty empty empty 0 -9 0 10 -262144
+#X obj 157 262 vsl 12 32 0 1 0 0 empty empty empty 0 -9 0 10 -204786
 -1 -1 0 1;
-#X obj 649 236 vsl 12 32 0 1 0 0 empty empty empty 0 -9 0 10 -262144
+#X obj 188 262 vsl 12 32 0 1 0 0 empty empty empty 0 -9 0 10 -262130
 -1 -1 0 1;
-#X obj 661 236 vsl 12 32 0 1 0 0 empty empty empty 0 -9 0 10 -262144
+#X obj 235 262 vsl 12 32 0 1 0 0 empty empty empty 0 -9 0 10 -204786
 -1 -1 0 1;
-#X obj 676 236 vsl 12 32 0 1 0 0 empty empty empty 0 -9 0 10 -262144
+#X obj 266 262 vsl 12 32 0 1 0 0 empty empty empty 0 -9 0 10 -262130
 -1 -1 0 1;
-#X obj 688 236 vsl 12 32 0 1 0 0 empty empty empty 0 -9 0 10 -262144
+#X obj 314 262 vsl 12 32 0 1 0 0 empty empty empty 0 -9 0 10 -204786
 -1 -1 0 1;
-#X obj 810 236 vsl 12 32 0 1 0 0 empty empty empty 0 -9 0 10 -4034
+#X obj 346 262 vsl 12 32 0 1 0 0 empty empty empty 0 -9 0 10 -262130
 -1 -1 0 1;
-#N canvas 783 254 427 362 RisBeater 0;
-#X floatatom 37 175 5 0 0 2 f0 - -, f 5;
-#X floatatom 80 175 4 0 0 2 f1 - -, f 4;
-#X floatatom 111 175 4 0 0 2 beat - -, f 4;
-#X floatatom 157 175 4 0 0 2 f2 - -, f 4;
-#X floatatom 188 175 4 0 0 2 beat - -, f 4;
-#X floatatom 235 175 4 0 0 2 f3 - -, f 4;
-#X floatatom 266 175 4 0 0 2 beat - -, f 4;
-#X floatatom 314 175 4 0 0 2 f4 - -, f 4;
-#X floatatom 345 175 4 0 0 2 beat - -, f 4;
-#X obj 80 193 vsl 12 32 0 1 0 0 empty empty empty 0 -9 0 10 -204786
+#X obj 386 262 vsl 12 32 0.01 1 1 0 empty empty Vol 0 -9 0 10 -4034
 -1 -1 0 1;
-#X obj 37 193 vsl 12 32 0 1 0 0 empty empty empty 0 -9 0 10 -204786
--1 -1 0 1;
-#X obj 112 193 vsl 12 32 0 1 0 0 empty empty empty 0 -9 0 10 -262130
--1 -1 0 1;
-#X obj 157 193 vsl 12 32 0 1 0 0 empty empty empty 0 -9 0 10 -204786
--1 -1 0 1;
-#X obj 188 193 vsl 12 32 0 1 0 0 empty empty empty 0 -9 0 10 -262130
--1 -1 0 1;
-#X obj 235 193 vsl 12 32 0 1 0 0 empty empty empty 0 -9 0 10 -204786
--1 -1 0 1;
-#X obj 266 193 vsl 12 32 0 1 0 0 empty empty empty 0 -9 0 10 -262130
--1 -1 0 1;
-#X obj 314 193 vsl 12 32 0 1 0 0 empty empty empty 0 -9 0 10 -204786
--1 -1 0 1;
-#X obj 346 193 vsl 12 32 0 1 0 0 empty empty empty 0 -9 0 10 -262130
--1 -1 0 1;
-#X obj 386 193 vsl 12 32 0.01 1 1 0 empty empty Vol 0 -9 0 10 -4034
--1 -1 0 1;
-#X obj 59 282 outlet~;
-#X obj 296 283 outlet~;
-#X obj 31 138 cnv 15 1 1 empty empty Fundamental_+_4_Risset_Tones 70
+#X obj 59 351 outlet~;
+#X obj 296 352 outlet~;
+#X obj 31 207 cnv 15 1 1 empty empty Fundamental_+_4_Risset_Tones 70
 12 0 14 -262144 -66577 0;
-#X obj 7 2 inlet;
-#X text 30 126 f0;
-#X text 46 126 f1;
-#X text 62 126 beat;
-#X obj 22 18 inlet;
-#X obj 43 2 inlet;
-#X obj 58 18 inlet;
-#X obj 79 2 inlet;
-#X obj 94 18 inlet;
-#X obj 115 2 inlet;
-#X obj 130 18 inlet;
-#X obj 151 2 inlet;
-#X obj 191 2 inlet;
-#X obj 206 18 inlet;
-#X obj 227 2 inlet;
-#X obj 242 18 inlet;
-#X obj 263 2 inlet;
-#X obj 278 18 inlet;
-#X obj 299 2 inlet;
-#X obj 314 18 inlet;
-#X obj 335 2 inlet;
-#X obj 360 18 inlet;
-#X text 102 126 beat;
-#X text 88 126 f2;
-#X text 142 126 beat;
-#X text 128 126 f3;
-#X text 182 126 beat;
-#X text 168 126 f4;
-#X text 209 126 vol0;
-#X text 252 126 vb1;
-#X text 236 126 v1;
-#X text 273 126 v2;
-#X text 289 126 vb2;
-#X text 310 126 v3;
-#X text 328 126 vb3;
-#X text 351 126 v4;
-#X text 367 126 vb4;
-#X text 388 126 VOL;
-#X obj 59 256 beatsF0Plus4 440 660 10 750 2 860 0.1 900 0.05;
-#X obj 3 39 r \$0-f0-r;
-#X obj 3 58 r \$0-f0v-r;
-#X obj 34 73 r \$0-f1-r;
-#X obj 34 92 r \$0-f1v-r;
-#X obj 78 39 r \$0-b1-r;
-#X obj 78 58 r \$0-b1v-r;
-#X obj 126 73 r \$0-f2-r;
-#X obj 126 92 r \$0-f2v-r;
-#X obj 170 39 r \$0-b2-r;
-#X obj 170 58 r \$0-b2v-r;
-#X obj 207 73 r \$0-f3-r;
-#X obj 207 92 r \$0-f3v-r;
-#X obj 251 39 r \$0-b3-r;
-#X obj 251 58 r \$0-b3v-r;
-#X obj 285 73 r \$0-f4-r;
-#X obj 285 92 r \$0-f4v-r;
-#X obj 329 39 r \$0-b4-r;
-#X obj 329 58 r \$0-b4v-r;
-#X obj 358 92 r \$0-vol;
+#X obj 7 71 inlet;
+#X text 30 195 f0;
+#X text 46 195 f1;
+#X text 62 195 beat;
+#X obj 22 87 inlet;
+#X obj 43 71 inlet;
+#X obj 58 87 inlet;
+#X obj 79 71 inlet;
+#X obj 94 87 inlet;
+#X obj 115 71 inlet;
+#X obj 130 87 inlet;
+#X obj 151 71 inlet;
+#X obj 191 71 inlet;
+#X obj 206 87 inlet;
+#X obj 227 71 inlet;
+#X obj 242 87 inlet;
+#X obj 263 71 inlet;
+#X obj 278 87 inlet;
+#X obj 299 71 inlet;
+#X obj 314 87 inlet;
+#X obj 335 71 inlet;
+#X obj 360 87 inlet;
+#X text 102 195 beat;
+#X text 88 195 f2;
+#X text 142 195 beat;
+#X text 128 195 f3;
+#X text 182 195 beat;
+#X text 168 195 f4;
+#X text 209 195 vol0;
+#X text 252 195 vb1;
+#X text 236 195 v1;
+#X text 273 195 v2;
+#X text 289 195 vb2;
+#X text 310 195 v3;
+#X text 328 195 vb3;
+#X text 351 195 v4;
+#X text 367 195 vb4;
+#X text 388 195 VOL;
+#X obj 59 325 beatsF0Plus4 440 660 10 750 2 860 0.1 900 0.05;
+#X obj 3 108 r \$0-f0-r;
+#X obj 3 127 r \$0-f0v-r;
+#X obj 34 142 r \$0-f1-r;
+#X obj 34 161 r \$0-f1v-r;
+#X obj 78 108 r \$0-b1-r;
+#X obj 78 127 r \$0-b1v-r;
+#X obj 126 142 r \$0-f2-r;
+#X obj 126 161 r \$0-f2v-r;
+#X obj 170 108 r \$0-b2-r;
+#X obj 170 127 r \$0-b2v-r;
+#X obj 207 142 r \$0-f3-r;
+#X obj 207 161 r \$0-f3v-r;
+#X obj 251 108 r \$0-b3-r;
+#X obj 251 127 r \$0-b3v-r;
+#X obj 285 142 r \$0-f4-r;
+#X obj 285 161 r \$0-f4v-r;
+#X obj 329 108 r \$0-b4-r;
+#X obj 329 127 r \$0-b4v-r;
+#X obj 358 161 r \$0-vol;
 #X connect 0 0 60 0;
 #X connect 1 0 60 1;
 #X connect 2 0 60 2;
@@ -180,56 +153,87 @@
 #X connect 77 0 8 0;
 #X connect 78 0 17 0;
 #X connect 79 0 18 0;
-#X coords 0 -1 1 1 380 110 2 30 126;
-#X restore 70 204 pd RisBeater;
-#X obj 567 282 beatsF0Plus4 440 660 10 750 2 860 0.1 900 0.05;
-#X text 157 124 We can set the parameters in 3 ways:;
-#X text 70 148 * Via the inlets;
-#X floatatom 70 164 5 0 0 0 - - -, f 5;
-#X obj 179 182 s \$0-f0-r;
-#X floatatom 179 164 5 0 0 0 - - -, f 5;
-#X text 157 110 Below we have [beatsF0Plus4-GUI];
-#X text 176 148 * Via sends (open it to see the names of the receives)
+#X coords 0 -1 1 1 380 110 2 30 196;
+#X restore 20 244 pd RisBeater;
+#X text 19 161 We can set the parameters in 3 ways:;
+#X text 20 188 * Via the inlets;
+#X floatatom 20 204 5 0 0 0 - - -, f 5;
+#X obj 129 222 s \$0-f0-r;
+#X floatatom 129 204 5 0 0 0 - - -, f 5;
+#X text 19 147 Below we have [beatsF0Plus4-GUI];
+#X text 126 188 * Via sends (open it to see the names of the receives)
 ;
-#X text 268 170 * Or via the GUI elements;
-#X text 261 183 (the number boxes and the sliders);
-#X text 552 172 (But it allows use to initialize the values at creation...)
-;
-#X text 552 156 (It doesn't have receives for now);
-#X text 554 139 We can also use the version without GUI.;
-#X text 65 18 For now we have: a fundamental f0 + 4 partials f1 \,
-f2 \, f3 \, f4 each with a beating frequency (in Hz - beats per second).
-We also control the volume (yellow sliders) of each tone that generates
-each beating \, decreasing the amplitude of the beating. Note that
-lower beating frequencies make the beating more perceivable as a pitch
-oscillation instead of a n amplitude oscillation.;
-#X text 470 33 Other types of Risset beats objects would be very welcome
-- more f1|beat pairs or more beating frequency per partial \, for example.
-;
-#X text 76 385 at gmail dot com;
-#X text 75 373 Tiago Brizolara - 2019 - brizolara @ GitHub;
-#X connect 1 0 21 0;
-#X connect 2 0 21 1;
-#X connect 3 0 21 2;
-#X connect 4 0 21 3;
-#X connect 5 0 21 4;
-#X connect 6 0 21 5;
-#X connect 7 0 21 6;
-#X connect 8 0 21 7;
-#X connect 9 0 21 8;
-#X connect 10 0 21 10;
-#X connect 11 0 21 9;
-#X connect 12 0 21 11;
-#X connect 13 0 21 12;
-#X connect 14 0 21 13;
-#X connect 15 0 21 14;
-#X connect 16 0 21 15;
-#X connect 17 0 21 16;
-#X connect 18 0 21 17;
-#X connect 19 0 21 18;
-#X connect 20 0 0 0;
-#X connect 20 1 0 1;
-#X connect 21 0 0 0;
-#X connect 21 1 0 1;
-#X connect 24 0 20 0;
-#X connect 26 0 25 0;
+#X text 218 210 * Or via the GUI elements;
+#X text 211 223 (the number boxes and the sliders);
+#X obj 454 189 blitSaw 7 97.5;
+#X obj 546 189 blitSaw 7 97.57;
+#X obj 644 189 blitSaw 7 97.72;
+#X obj 742 189 blitSaw 7 97.795;
+#X obj 508 273 blitSaw 7 110;
+#X obj 597 274 blitSaw 7 110.1;
+#X obj 696 274 blitSaw 7 110.2;
+#X obj 627 340 *~ 0.3;
+#X obj 627 364 hip~ 250;
+#X obj 627 385 hip~ 250;
+#X obj 627 405 hip~ 250;
+#X text 544 550 Tiago Brizolara - 2020 - brizolara @ GitHub;
+#X text 18 391 In fact \, [beatsF0Plus4-GUI] simply have a GUI and
+a [beatsF0Plus4] inside it (where the synthesizer in fact is).;
+#X obj 20 502 beatsF0Plus4 440 660 10 750 2 860 0.1 900 0.05 1 1 1
+1 1 1 1 1 1 1, f 63;
+#X text 18 41 [beatsF0Plus4-GUI] (and [beatsF0Plus4]) have: a fundamental
+frequency f0 + 4 partials f1 \, f2 \, f3 \, f4 \, each with a beating
+frequency (in Hz - beats per second). We also control the volume of
+each frequency (green sliders) and of each tone that generates the
+corresponding beating (yellow sliders). \; Note that lower beating
+frequencies make the beating more perceivable as a pitch oscillation
+instead of an amplitude oscillation.;
+#X obj 11 11 cnv 15 400 22 empty empty [beatsF0Plus4-GUI]_and_[beatsF0Plus4]
+20 12 0 14 -233017 -66577 0;
+#X obj 443 11 cnv 15 400 22 empty empty [blitSaw]_a_band-limited_sawtooth
+20 12 0 14 -233017 -66577 0;
+#X text 688 377 exquisite!;
+#X text 658 562 tiago.brizolara at gmail;
+#X text 18 429 Using the crude [beatsF0Plus4] may be useful to rapidly
+initialize all parameters (which are in the same order shown in the
+inlets of the GUI version: f0 \, f1 \, f1beat \, f2 \, f2beat \, f3
+\, f3beat \, volf0 \, volf1 \, volbeat1 \, volf2 \, volbeat2 \, volf3
+\, volbeat3 \, volf4 \, volbeat4 \, masterVol. \; So this one here
+is born already with some volume:;
+#X text 143 538 (Other objects would be very welcome - more f1|beat
+pairs or more beating frequencies per partial \, for example. The latter
+could be made by using [blitSaw]s or other band-limited waveforms for
+each partial...);
+#X text 452 43 [blitSaw n f0] - A band-limited Sawtooth wave generator.
+n = number of harmonics (including the fundamental) \, f0 = fundamental
+frequency. \; We can use it to obtain "sweeping" harmonics \, like
+an arpeggio. \, when we combine two or more [blitSaw] with base frequencies
+too close. This is caused by the different beating frequencies of these
+harmonics. \; This procedure (and much more) is due to the pioneer
+on electronic music \, physicist/composer Jean-Claude Risset - "Computer
+Music: Why?" WERGO 2033-2 \, 1985;
+#X connect 1 0 12 0;
+#X connect 1 0 13 0;
+#X connect 1 0 14 0;
+#X connect 1 0 15 0;
+#X connect 1 0 16 0;
+#X connect 1 0 17 0;
+#X connect 1 0 18 0;
+#X connect 2 0 0 0;
+#X connect 2 1 0 1;
+#X connect 5 0 2 0;
+#X connect 7 0 6 0;
+#X connect 12 0 19 0;
+#X connect 13 0 19 0;
+#X connect 14 0 19 0;
+#X connect 15 0 19 0;
+#X connect 16 0 19 0;
+#X connect 17 0 19 0;
+#X connect 18 0 19 0;
+#X connect 19 0 20 0;
+#X connect 20 0 21 0;
+#X connect 21 0 22 0;
+#X connect 22 0 0 1;
+#X connect 22 0 0 0;
+#X connect 25 0 0 0;
+#X connect 25 1 0 1;
